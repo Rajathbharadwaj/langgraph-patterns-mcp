@@ -1,0 +1,34 @@
+{
+  "name": "langgraph-patterns-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing LangGraph agent patterns, code snippets, and best practices",
+  "main": "dist/index.js",
+  "bin": {
+    "langgraph-patterns-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "langgraph",
+    "ai-agents",
+    "langchain",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "Rajath Bharadwaj",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rajathbharadwaj/langgraph-patterns-mcp"
+  }
+}
